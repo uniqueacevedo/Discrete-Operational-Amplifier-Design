@@ -44,7 +44,7 @@ These circuits provided predictable bias currents and improved stability across 
 ### 3. Voltage Gain Stage & Frequency Response Analysis
 A discrete voltage gain stage was implemented to replace the function generator previously used in the signal path. This stage provided the majority of the amplifier’s open-loop voltage gain.
 
-Frequency response was analyzed using a Bode plotter operating through a Windows-based analyzer running on a Linux environment. The effects of Miller capacitance, bandwidth limitations, and dominant pole behavior were examined. Darlington pair operation was also studied as part of the gain-stage analysis.
+I analyzed frequency response and bandwidth using LTspice Bode simulation. Physical testing covered gain, DC transfer characteristics, and bias stability. Darlington pair operation was also studied as part of the gain-stage analysis.
 
 Once characterized, the gain stage was integrated with the existing biasing networks and push-pull output stage.
 
@@ -70,7 +70,7 @@ With this stage integrated, the operational amplifier was complete, closely mirr
 ---
 
 ## Final Integrated System
-All four stages were successfully integrated into a single discrete operational amplifier. The completed system demonstrated stable biasing, significant voltage gain, realistic frequency response behavior, and the ability to drive real loads.
+I integrated the stages into a discrete operational amplifier and tested gain, DC transfer characteristics, and bias stability. Frequency response and bandwidth were evaluated through LTspice simulation.
 
 This project highlights how classical operational amplifiers are built from fundamental transistor-level building blocks and how design tradeoffs between gain, bandwidth, and stability manifest in real circuits.
 
